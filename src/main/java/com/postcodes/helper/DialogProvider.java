@@ -1,0 +1,1 @@
+package com.postcodes.helper;import com.postcodes.app.CountryRegion;import com.postcodes.app.Nearest;import com.postcodes.app.POCValidation;import java.util.Properties;public interface DialogProvider {    Properties              config();    POCValidation           validation();    CountryRegion           countryRegion();    Nearest                 nearestCode();}
